@@ -57,7 +57,7 @@ Test that it works:
 Fetch the token with the following approach:
 
 ```sh
-/usr/share/neomutt/oauth2/mutt_oauth2.py ~/email.token --provider microsoft --email dparo@outlook.it
+/usr/share/neomutt/oauth2/mutt_oauth2.py ~/email.token
 ```
 
 ## Configuration
