@@ -17,11 +17,11 @@ This guide serve as a base to setup an OAUTH2 Authentication Flow to use with th
    2. ![alt text](imgs/register_app_2.png)
 3. Copy the client Id and create a new client secret:
    1. ![alt text](imgs/client_id.png)
-   2. ![alt text][imgs/client_secret.png]
-   3. ![alt text][imgs/client_secret_value.png]
+   2. ![alt text](imgs/add_client_secret.png)
+   3. ![alt text](imgs/client_secret_value.png)
 4. Setup API permissions:
-   1. ![alt text][imgs/setup_api_permissions_1.png]
-   2. ![alt text][imgs/setup_api_permissions_2.png]
+   1. ![alt text](imgs/setup_api_permissions_1.png)
+   2. ![alt text](imgs/setup_api_permissions_2.png)
    3. Add the following API persmissions:
       1. `offline_access` (Microsoft Graph, Delegated)
       2. `IMAP.AccessAsUser.All` (Microsoft Graph, Delegated)
