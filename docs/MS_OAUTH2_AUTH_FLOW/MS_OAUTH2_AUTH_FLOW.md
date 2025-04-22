@@ -128,3 +128,4 @@ configurations:
 - <https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app?tabs=certificate%2Cexpose-a-web-api>
 - <https://sites.uw.edu/bxf4/2022/09/01/getting-uw-outlook-365-oauth2-to-work-with-emacs-mu4e-mbsync-and-msmtp/>
 - <https://brettpresnell.com/post/email/>
+- <https://simondobson.org/2024/02/03/getting-email/>
