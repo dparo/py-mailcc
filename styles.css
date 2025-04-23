@@ -182,7 +182,9 @@ code,
 tr.odd,
 tr.even,
 body {
-    font-family: "Libre Baskerville", "Baskerville", "Baskerville Old Face", "Hoefler Text", "Garamond", Georgia, "Noto Serif", "Times New Roman", Times, serif;
+    font-family: "Libre Baskerville", "Baskerville", "Baskerville Old Face",
+        "Hoefler Text", "Garamond", Georgia, "Noto Serif", "Times New Roman",
+        Times, serif;
     background-color: #f8f8f8;
     color: #111;
     line-height: 1.3;
@@ -372,7 +374,8 @@ a:hover.footnoteRef {
     color: #666;
 }
 code {
-    font-family: "Source Code Pro", "SFMono-Regular", Monaco, Consolas, "Courier New", Menlo, "Noto Mono", "Liberation Mono", monospace;
+    font-family: "Source Code Pro", "SFMono-Regular", Monaco, Consolas,
+        "Courier New", Menlo, "Noto Mono", "Liberation Mono", monospace;
     font-size: 85%;
     background-color: #eee;
     border: 1px solid #bbb;
