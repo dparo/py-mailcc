@@ -1,5 +1,5 @@
 ---
-title: ''
+title: ""
 toc: true
 toc-title: "Indice"
 toc-depth: 3
@@ -11,7 +11,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum vulpu
 
 In hac habitasse platea dictumst. Integer quis lorem leo. Etiam convallis scelerisque mi a tempor. Etiam dignissim lacus ut tortor pretium placerat. Curabitur aliquam lorem tellus, nec semper sapien sollicitudin quis. Integer tortor nibh, blandit at convallis eget, fringilla nec sem. Sed eget convallis augue, vel congue odio. Vestibulum vel ex vehicula, euismod lectus vel, faucibus mauris. Duis non nulla lobortis, mollis tortor id, auctor ante. Nulla ornare fringilla arcu.
 
-
 ## Sub Section
 
 Nam in lobortis lectus. Mauris id tellus vel velit venenatis tristique vel non sapien. Vestibulum eu erat libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla sed semper tortor, ut egestas mauris. Etiam ac purus sapien. In vel sollicitudin lectus. Donec at ex semper, dapibus velit sit amet, cursus enim.
@@ -20,7 +19,6 @@ Quisque sagittis quam ut ante consectetur semper. Donec cursus turpis vitae cond
 
 Nulla facilisi. Donec scelerisque tincidunt arcu, quis pellentesque ipsum pulvinar imperdiet. Phasellus ultrices consectetur facilisis. Nullam porta dignissim lorem, nec luctus leo cursus in. Donec quis accumsan nulla. Donec ac dignissim purus. Pellentesque faucibus, arcu in semper finibus, sem tortor accumsan eros, non euismod elit metus tincidunt nibh. Praesent pulvinar lobortis felis sit amet fringilla. Nam placerat, arcu ultrices porta placerat, sapien diam euismod turpis, id rhoncus orci tortor eget sem. Aliquam mi diam, consequat sit amet dictum imperdiet, sagittis a elit. Curabitur dolor justo, fermentum vitae sapien sit amet, pulvinar luctus dui. Praesent dignissim sit amet risus at laoreet. Etiam sit amet dictum neque. In libero lectus, hendrerit vitae lorem at, efficitur venenatis mi.
 
-
 # Quote
 
 Prova di un `monospace innestato`.
@@ -28,8 +26,7 @@ Prova di un `monospace innestato`.
 > Example quote
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum vulputate mi, et placerat dui dignissim ac. Aliquam eu est vitae leo fermentum iaculis. Donec hendrerit diam diam, eleifend sagittis leo lacinia eget. Aliquam fringilla enim a mattis rutrum. Suspendisse potenti. Praesent vitae lacus sit amet est iaculis scelerisque. Duis a egestas massa. Fusce ornare, tortor a porta pharetra, felis urna placerat dui, quis feugiat diam justo non nibh. Proin varius diam sed erat pharetra pellentesque. In mollis lobortis placerat. Ut mollis, ipsum quis convallis finibus, est mauris ullamcorper nulla, sit amet consequat quam orci ornare lectus. Phasellus hendrerit quam quis tellus euismod dignissim. Integer posuere lectus id nisi imperdiet sagittis. Duis consequat eget dolor vitae cursus.
 
-![Alternate text for the figure](docs/MS_OAUTH2_AUTH_FLOW/imgs/client_id.png )
-
+![Alternate text for the figure](docs/MS_OAUTH2_AUTH_FLOW/imgs/client_id.png)
 
 $$
 a = \frac{1}{2} \cdot b
@@ -40,7 +37,6 @@ int main(int argc, char **argv) {
     return 0;
 }
 ```
-
 
 ```json
 {

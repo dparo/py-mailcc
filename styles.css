@@ -226,7 +226,7 @@ body {
         margin-right: 200px;
         margin-top: 30px;
         margin-bottom: 25px;
-        max-width: 800px;
+        /* max-width: 800px; */
     }
 }
 @media (min-width: 1801px) {
@@ -236,7 +236,7 @@ body {
         margin-right: 20%;
         margin-top: 30px;
         margin-bottom: 25px;
-        max-width: 1000px;
+        /* max-width: 1000px; */
     }
 }
 p {
