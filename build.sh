@@ -6,7 +6,17 @@ set -eou pipefail
 
 # Render Latex equations to SVG / PNG
 # pandoc -f markdown -s --embed-resources main.md -o main.html --webtex='https://latex.codecogs.com/svg.image?'
-pandoc --toc -f markdown -s --embed-resources --css styles.css main.md -o main.html --webtex='https://latex.codecogs.com/png.image?'
+pandoc --toc \
+    -s \
+    --embed-resources \
+    --webtex='https://latex.codecogs.com/png.image?' \
+    -V lang=en \
+    --highlight-style=pygments \
+    --css styles.css \
+    -f markdown+smart \
+    --to=html5 \
+    -o main.html \
+    main.md
 
 # Render Latex equations with mathml
 # pandoc -f markdown -s --embed-resources main.md -o main.html --mathml
