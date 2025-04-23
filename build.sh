@@ -4,14 +4,13 @@
 set -eou pipefail
 
 
-# Render Latex equations to SVG / PNG
-# pandoc -f markdown -s --embed-resources main.md -o main.html --webtex='https://latex.codecogs.com/svg.image?'
+# Render Latex equations to SVG / PNG with webtex
 pandoc --toc \
     -s \
     --embed-resources \
     --webtex='https://latex.codecogs.com/png.image?' \
-    -V lang=en \
-    --highlight-style=pygments \
+    -V lang=it \
+    --highlight-style=kate \
     --css styles.css \
     -f markdown+smart \
     --to=html5 \
