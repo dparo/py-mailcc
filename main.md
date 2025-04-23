@@ -23,6 +23,8 @@ Nulla facilisi. Donec scelerisque tincidunt arcu, quis pellentesque ipsum pulvin
 
 # Quote
 
+Prova di un `monospace innestato`.
+
 > Example quote
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum vulputate mi, et placerat dui dignissim ac. Aliquam eu est vitae leo fermentum iaculis. Donec hendrerit diam diam, eleifend sagittis leo lacinia eget. Aliquam fringilla enim a mattis rutrum. Suspendisse potenti. Praesent vitae lacus sit amet est iaculis scelerisque. Duis a egestas massa. Fusce ornare, tortor a porta pharetra, felis urna placerat dui, quis feugiat diam justo non nibh. Proin varius diam sed erat pharetra pellentesque. In mollis lobortis placerat. Ut mollis, ipsum quis convallis finibus, est mauris ullamcorper nulla, sit amet consequat quam orci ornare lectus. Phasellus hendrerit quam quis tellus euismod dignissim. Integer posuere lectus id nisi imperdiet sagittis. Duis consequat eget dolor vitae cursus.
 
