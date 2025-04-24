@@ -425,6 +425,7 @@ table {
     width: 100%;
     margin-top: 1em;
     margin-bottom: 1em;
+    border: 1px solid #222; /* Outer border for the table */
 }
 table + h1 {
     border-top: none;
@@ -432,17 +433,20 @@ table + h1 {
 tr td,
 tr th {
     padding: 0.2em 0.7em;
+    border-left: 1px solid #222; /* Inner vertical borders for cells */
+    border-right: 1px solid #222; /* Inner vertical borders for cells */
 }
 tr.header {
     border-top: 1px solid #222;
     border-bottom: 1px solid #222;
+    background-color: #ddd;
     font-weight: 700;
 }
 tr.odd {
-    background-color: #eee;
+    background-color: #fff;
 }
 tr.even {
-    background-color: #ccc;
+    background-color: #eee;
 }
 tbody:last-child {
     border-bottom: 1px solid #222;
