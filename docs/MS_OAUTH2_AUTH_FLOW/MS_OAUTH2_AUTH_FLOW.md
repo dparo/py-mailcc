@@ -129,3 +129,8 @@ configurations:
 - <https://sites.uw.edu/bxf4/2022/09/01/getting-uw-outlook-365-oauth2-to-work-with-emacs-mu4e-mbsync-and-msmtp/>
 - <https://brettpresnell.com/post/email/>
 - <https://simondobson.org/2024/02/03/getting-email/>
+- https://learn.microsoft.com/en-us/entra/identity-platform/v2-app-types
+  - https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-auth-code-flow
+  - https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-client-creds-grant-flow
+    - https://learn.microsoft.com/en-us/powershell/module/pki/new-selfsignedcertificate?view=windowsserver2022-ps
+  - https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-device-code
