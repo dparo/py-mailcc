@@ -136,3 +136,7 @@ configurations:
   - https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-client-creds-grant-flow
     - https://learn.microsoft.com/en-us/powershell/module/pki/new-selfsignedcertificate?view=windowsserver2022-ps
   - https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-device-code
+  -
+- `XOAUTH2` CYRUS SASL Implementations:
+  - https://github.com/tarickb/sasl-xoauth2: As a "password" wants a filepath pointing to a credentials file holding the access_token and refresh_token
+  - https://github.com/moriyoshi/cyrus-sasl-xoauth2: TO be investigated
