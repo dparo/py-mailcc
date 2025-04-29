@@ -125,6 +125,7 @@ configurations:
 - [pizauth](https://github.com/ltratt/pizauth)
 - [email-oauth2-proxy](https://github.com/simonrob/email-oauth2-proxy)
 - [oauth2ms](https://github.com/harishkrupo/oauth2ms)
+- [oama](https://github.com/pdobsan/oama)
 - <https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app?tabs=certificate%2Cexpose-a-web-api>
 - <https://sites.uw.edu/bxf4/2022/09/01/getting-uw-outlook-365-oauth2-to-work-with-emacs-mu4e-mbsync-and-msmtp/>
 - <https://brettpresnell.com/post/email/>
