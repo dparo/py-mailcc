@@ -64,6 +64,12 @@ Fetch the token with the following approach:
 
 ### `mbsync`
 
+MbSync uses CYRUS SASL library to provide generic authentication.
+The `AuthMechs XOAUTH2`, requires the `XOAUTH2` plugin to be installed in CYRUS SALS.
+To verify that it is installed, run the command `pluginmanager` on the terminal,
+and verify that it's output contains `XOAUTH2` in the list of plugins.
+
+
 ```conf
 IMAPStore <email>-remote
 Host outlook.office365.com
