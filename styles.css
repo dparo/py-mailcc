@@ -1,492 +1,145 @@
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
+/*
+ * A minimal CSS for Pandoc-generated HTML emails. (Version 2)
+ * Designed for readability and email client compatibility.
+ */
+
 body {
-    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.6;
+    color: #333;
+    background-color: #fdfdfd;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
 }
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary {
-    display: block;
-}
-audio,
-canvas,
-progress,
-video {
-    display: inline-block;
-    vertical-align: baseline;
-}
-audio:not([controls]) {
-    display: none;
-    height: 0;
-}
-[hidden],
-template {
-    display: none;
-}
-a {
-    background: transparent;
-}
-a:active,
-a:hover {
-    outline: 0;
-}
-abbr[title] {
-    border-bottom: 1px dotted;
-}
-b,
-strong {
-    font-weight: bold;
-}
-dfn {
-    font-style: italic;
-}
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
-mark {
-    background: #ff0;
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
     color: #000;
 }
-small {
-    font-size: 80%;
-}
-sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-}
-sup {
-    top: -0.5em;
-}
-sub {
-    bottom: -0.25em;
-}
-img {
-    border: 0;
-}
-svg:not(:root) {
-    overflow: hidden;
-}
-figure {
-    margin: 1em 40px;
-}
-hr {
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    height: 0;
-}
-pre {
-    overflow: auto;
-}
-code,
-kbd,
-pre,
-samp {
-    font-family: monospace, monospace;
-    font-size: 1em;
-}
-button,
-input,
-optgroup,
-select,
-textarea {
-    color: inherit;
-    font: inherit;
-    margin: 0;
-}
-button {
-    overflow: visible;
-}
-button,
-select {
-    text-transform: none;
-}
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-    -webkit-appearance: button;
-    cursor: pointer;
-}
-button[disabled],
-html input[disabled] {
-    cursor: default;
-}
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
-}
-input {
-    line-height: normal;
-}
-input[type="checkbox"],
-input[type="radio"] {
-    box-sizing: border-box;
-    padding: 0;
-}
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-    height: auto;
-}
-input[type="search"] {
-    -webkit-appearance: textfield;
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
-}
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
-}
-fieldset {
-    border: 1px solid #c0c0c0;
-    margin: 0 2px;
-    padding: 0.35em 0.625em 0.75em;
-}
-legend {
-    border: 0;
-    padding: 0;
-}
-textarea {
-    overflow: auto;
-}
-optgroup {
-    font-weight: bold;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-td,
-th {
-    padding: 0;
-}
-body,
-code,
-tr.odd,
-tr.even,
-body {
-    font-family: "Libre Baskerville", "Baskerville", "Baskerville Old Face",
-        "Hoefler Text", "Garamond", Georgia, "Noto Serif", "Times New Roman",
-        Times, serif;
-    background-color: #f8f8f8;
-    color: #111;
-    line-height: 1.3;
-    text-align: justify;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    -webkit-hyphens: auto;
-    hyphens: auto;
-}
-@media (max-width: 400px) {
-    body {
-        font-size: 12px;
-        margin: 10px 10px 15px 10px;
-    }
-}
-@media (min-width: 401px) and (max-width: 600px) {
-    body {
-        font-size: 14px;
-        margin: 10px 10px 15px 10px;
-    }
-}
-@media (min-width: 601px) and (max-width: 900px) {
-    body {
-        font-size: 15px;
-        margin: 20px 100px 25px 100px;
-    }
-}
-@media (min-width: 901px) and (max-width: 1800px) {
-    body {
-        font-size: 17px;
-        margin: 30px auto 25px auto;
-        max-width: 800px;
-    }
-}
-@media (min-width: 1801px) {
-    body {
-        font-size: 18px;
-        margin: 30px auto 25px auto;
-        max-width: 1000px;
-    }
-}
-p {
-    margin-top: 10px;
-    margin-bottom: 18px;
-}
-em {
-    font-style: italic;
-}
-strong {
-    font-weight: bold;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: bold;
-    padding-top: 0.25em;
-    margin-bottom: 0.15em;
-}
-header {
-    line-height: 2.475em;
-    padding-bottom: 0.7em;
-    border-bottom: 1px solid #bbb;
-    margin-bottom: 1.2em;
-}
-header > h1 {
-    border: none;
-    padding: 0;
-    margin: 0;
-    font-size: 225%;
-}
-header > h2 {
-    border: none;
-    padding: 0;
-    margin: 0;
-    font-style: normal;
-    font-size: 175%;
-}
-header > h3 {
-    padding: 0;
-    margin: 0;
-    font-size: 125%;
-    font-style: italic;
-}
-header + h1 {
-    border-top: none;
-    padding-top: 0px;
-}
+
 h1 {
-    border-top: 1px solid #bbb;
-    padding-top: 15px;
-    font-size: 150%;
-    margin-bottom: 10px;
+    font-size: 1.8em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.4em;
 }
-h1:first-of-type {
-    border: none;
-}
+
 h2 {
-    font-size: 125%;
-    font-style: italic;
+    font-size: 1.5em;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.3em;
 }
+
 h3 {
-    font-size: 105%;
-    font-style: italic;
+    font-size: 1.25em;
 }
-hr {
-    border: 0px;
-    border-top: 1px solid #bbb;
-    width: 100%;
-    height: 0px;
+
+p {
+    margin-bottom: 1em;
 }
-hr + h1 {
-    border-top: none;
-    padding-top: 0px;
-}
-ul,
-ol {
-    font-size: 90%;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    padding-left: 30px;
-}
-ul {
-    list-style: circle;
-}
-ol {
-    list-style: decimal;
-}
-ul ul,
-ol ol,
-ul ol,
-ol ul {
-    font-size: inherit;
-}
-li {
-    margin-top: 5px;
-    margin-bottom: 7px;
-}
-q,
-blockquote,
-dd {
-    font-style: italic;
-    font-size: 90%;
-}
-blockquote,
-dd {
-    quotes: none;
-    border-left: 0.35em #bbb solid;
-    padding-left: 1.15em;
-    margin: 0 1.5em 0 0;
-}
-blockquote blockquote,
-dd blockquote,
-blockquote dd,
-dd dd,
-ol blockquote,
-ol dd,
-ul blockquote,
-ul dd,
-blockquote ol,
-dd ol,
-blockquote ul,
-dd ul {
-    font-size: inherit;
-}
-a,
-a:link,
-a:visited,
-a:hover {
-    color: inherit;
+
+a {
+    color: #007bff;
     text-decoration: none;
-    border-bottom: 1px dashed #111;
 }
-a:hover,
-a:link:hover,
-a:visited:hover,
-a:hover:hover {
-    border-bottom-style: solid;
+
+a:hover {
+    text-decoration: underline;
 }
-a.footnoteRef,
-a:link.footnoteRef,
-a:visited.footnoteRef,
-a:hover.footnoteRef {
-    border-bottom: none;
+
+ul, ol {
+    padding-left: 2em;
+    margin-bottom: 1em;
+}
+
+li {
+    margin-bottom: 0.4em;
+}
+
+blockquote {
+    border-left: 4px solid #ddd;
+    padding-left: 1em;
     color: #666;
-}
-code {
-    font-family: "Source Code Pro", "SFMono-Regular", Monaco, Consolas,
-        "Courier New", Menlo, "Noto Mono", "Liberation Mono", monospace;
-    font-size: 85%;
-    background-color: #eee;
-    border: 1px solid #bbb;
-    padding: 0px 0.15em 0px 0.15em;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-pre {
-    margin-right: 1.5em;
-    display: block;
-}
-pre > code {
-    display: block;
-    font-size: 70%;
-    padding: 10px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    overflow-x: auto;
-}
-blockquote pre,
-dd pre,
-ul pre,
-ol pre {
     margin-left: 0;
     margin-right: 0;
 }
-blockquote pre > code,
-dd pre > code,
-ul pre > code,
-ol pre > code {
-    font-size: 77.77778%;
+
+code {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background-color: #f0f0f0;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
 }
-caption,
-figcaption {
-    font-size: 80%;
-    font-style: italic;
-    text-align: right;
-    margin-bottom: 5px;
+
+pre {
+    background-color: #f0f0f0;
+    padding: 1em;
+    border-radius: 3px;
+    overflow-x: auto;
 }
-caption:empty,
-figcaption:empty {
-    display: none;
+
+pre code {
+    background-color: transparent;
+    padding: 0;
 }
+
 table {
     width: 100%;
-    margin-top: 1em;
+    border-collapse: collapse;
     margin-bottom: 1em;
-    border: 1px solid #222; /* Outer border for the table */
 }
-table + h1 {
-    border-top: none;
+
+th, td {
+    border: 1px solid #ccc; /* Adds all borders */
+    padding: 8px;
+    text-align: left;
 }
-tr td,
-tr th {
-    padding: 0.2em 0.7em;
-    border-left: 1px solid #222; /* Inner vertical borders for cells */
-    border-right: 1px solid #222; /* Inner vertical borders for cells */
+
+th {
+    background-color: #e9ecef; /* More saturated header color */
+    font-weight: bold;
+    color: #212529;
 }
-tr.header {
-    border-top: 1px solid #222;
-    border-bottom: 1px solid #222;
-    background-color: #ddd;
-    font-weight: 700;
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
 }
-tr.odd {
-    background-color: #fff;
-}
-tr.even {
-    background-color: #eee;
-}
-tbody:last-child {
-    border-bottom: 1px solid #222;
-}
-dt {
-    font-weight: 700;
-}
-dt:after {
-    font-weight: normal;
-    content: ":";
-}
-dd {
-    margin-bottom: 10px;
-}
+
+/* NEW: Image and Figure styles */
 figure {
-    margin: 1.3em 0 1.3em 0;
-    text-align: center;
-    padding: 0px;
-    width: 100%;
-    background-color: #eee;
-    border: 1px solid #bbb;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    overflow: hidden;
+    margin: 1em 0;
 }
+
 img {
-    display: block;
-    margin: 0px auto;
-    padding: 0px;
     max-width: 100%;
+    height: auto;
+    border-radius: 3px;
 }
-figcaption {
-    margin: 5px 10px 5px 30px;
+
+/* REVISED: Code block styling for overflow */
+/* Style the pandoc-generated container div */
+div.sourceCode {
+    background-color: #f0f0f0;
+    padding: 1em;
+    border-radius: 3px;
+    overflow-x: auto; /* The container handles the scrolling */
 }
-.footnotes {
-    color: #666;
-    font-size: 70%;
-    font-style: italic;
+
+/* Make the <pre> tag a transparent layer for text */
+pre {
+    background-color: transparent;
+    padding: 0;
+    margin: 0; /* Remove default margins */
+    border: none; /* Remove default borders */
+    overflow-x: visible; /* Let the parent div handle overflow */
 }
-.footnotes li p:last-child a:last-child {
-    border-bottom: none;
+
+/* Keep the code font style */
+pre code {
+    background-color: transparent;
+    padding: 0;
+    font-size: 0.9em;
 }
