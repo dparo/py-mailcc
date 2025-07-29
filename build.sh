@@ -10,7 +10,7 @@ pandoc --toc \
     --embed-resources \
     --webtex='https://latex.codecogs.com/png.image?' \
     -V lang=it \
-    --highlight-style=kate \
+    --highlight-style=zenburn \
     --css styles.css \
     -f markdown+smart \
     --to=html5 \
