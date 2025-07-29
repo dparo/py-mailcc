@@ -1,7 +1,7 @@
 /*
  * A minimal CSS for Pandoc-generated HTML emails. (Version 2)
  * Designed for readability and email client compatibility.
- * Updated to support light and dark themes.
+ * Updated to support light and dark themes with responsive layout.
  */
 
 body {
@@ -9,9 +9,31 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #fdfdfd;
-    max-width: 600px;
+    max-width: 95%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
+}
+
+/* Responsive max-width adjustments */
+@media (min-width: 480px) {
+    body {
+        max-width: 90%;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        max-width: 700px;
+        padding: 25px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        max-width: 800px;
+        padding: 30px;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
