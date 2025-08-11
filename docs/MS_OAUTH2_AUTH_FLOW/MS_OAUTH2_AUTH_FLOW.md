@@ -93,6 +93,25 @@ user <username>
 passwordeval /usr/share/neomutt/oauth2/mutt_oauth2.py <token-file-path>
 ```
 
+### `pizauth`
+
+```config
+account "officesmtp" {
+    auth_uri = "https://login.microsoftonline.com/common/oauth2/v2.0/authorize";
+    token_uri = "https://login.microsoftonline.com/common/oauth2/v2.0/token";
+    client_id = "<REDACTED>";
+    client_secret = "<REDACTED>";
+    scopes = [
+      "offline_access",
+      "https://outlook.office.com/IMAP.AccessAsUser.All",
+      "https://outlook.office.com/SMTP.Send"
+    ];
+    // You don't have to specify login_hint, but it does make authentication a
+    // little easier.
+    auth_uri_fields = { "login_hint": "d.paro@reply.it" };
+}
+```
+
 ### `goimapnotify`
 
 ```yaml
