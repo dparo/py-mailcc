@@ -17,6 +17,8 @@ pandoc --toc \
     -o main.html \
     main.md
 
+cat main.html | xclip -t text/html -selection clipboard -i
+
 # Render Latex equations with mathml
 # pandoc -f markdown -s --embed-resources main.md -o main.html --mathml
 
