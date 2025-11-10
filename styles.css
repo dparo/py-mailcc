@@ -131,6 +131,10 @@ tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
+tbody tr:hover {
+    background-color: #e8f4f8;
+}
+
 figure {
     margin: 1em 0;
 }
@@ -215,6 +219,10 @@ pre code {
 
     tr:nth-child(even) {
         background-color: #222222;
+    }
+
+    tbody tr:hover {
+        background-color: #2a2a2a;
     }
 
     /* Invert colors for math display images in dark mode */
